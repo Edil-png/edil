@@ -8,7 +8,7 @@ addCar()
 document.getElementById('cars').onchange = addCar
 async function addCar() {
   try {
-    const baseCar = await fetch('https://raw.githubusercontent.com/blanzh/carsBase/refs/heads/master/cars.json')
+    let baseCar = await fetch('https://raw.githubusercontent.com/blanzh/carsBase/refs/heads/master/cars.json')
     carObj = await baseCar.json()
     if (!baseCar.ok) {
       throw new Error('Uup could not fetch cars')
