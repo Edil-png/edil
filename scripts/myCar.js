@@ -44,5 +44,6 @@ function renderModels(el) {
   const myCar = document.getElementById('myCar')
   nameCar.innerHTML = el['name']
   modelCar.innerHTML = el['path']
-  // if (el['name'] = ) 
+  console.log(el)
+  
 }
