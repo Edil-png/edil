@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+nav {
+  background-color: #444;
+  overflow: hidden;
+}
+nav a {
+  color: white;
+  padding: 14px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.container {
+  padding: 20px;
+}
+.status {
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+.status div {
+  width: 30%;
+}
+.engine {
+  border-radius: 20px;
+  padding-left: 10px;
+  background-color: #4caf50;
+}
+.break {
+  border-radius: 20px;
+  padding-left: 10px;
+  background-color: #ff9800;
+}
+.tyres {
+  border-radius: 20px;
+  padding-left: 10px;
+  background-color: #f44336;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+option {
+  color: black;
+}
