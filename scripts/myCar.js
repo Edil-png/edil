@@ -1,8 +1,8 @@
 const addCarBtn = document.getElementById('addCar')
 const carsSelect = document.createElement('select')
 carsSelect.className = 'carsSelect'
-const carObj = []
-const carName = []
+let carObj = []
+let carName = []
 addCarBtn.onclick = addCar
 addCar()
 document.getElementById('cars').onchange = addCar
